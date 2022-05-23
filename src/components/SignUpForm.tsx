@@ -131,7 +131,7 @@ const SignUpForm: React.FC<props> = (props) => {
                 <Field
                   className={styles[`field_input-checkbox`]}
                   type="checkbox"
-                  name="termsAndConditions"
+                  name="termsAndCondition"
                 />
                 <label className={styles[`field_label-dark`]}>
                   I read and agree terms and conditions
