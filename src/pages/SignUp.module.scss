@@ -1,0 +1,78 @@
+.main{
+    background-color: whitesmoke;
+    justify-content: space-around;
+    height: 100%;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-flow: row;
+    align-items: center;
+   
+
+    .chartImg_container{
+        background-color: white;
+        height: 100%;
+        width: 49.5%;
+        position: relative;
+        z-index: 1;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        box-shadow: -0.1rem 0.1rem 1rem rgba($color: #000000, $alpha: 0.1);
+         
+        
+        img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        }
+
+        .description{
+            z-index: 10;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-direction: column;
+
+            .title{
+                color: rgba($color: #000000, $alpha: 1.0);   
+                margin-bottom: 0.3rem;
+                font-size: 1.3rem;
+            }
+
+            .subtitle{
+                width: 40%;
+                margin-bottom: 5rem;
+                font-size: 0.9rem;
+                color: rgba($color: #000000, $alpha: 0.5);
+            }
+        }
+
+     
+
+     
+    }
+
+    .form_container{
+        width: 49.5%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: white;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        box-shadow: -0.1rem 0.1rem 1rem rgba($color: #000000, $alpha: 0.1);
+    }
+}
+
+

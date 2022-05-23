@@ -1,0 +1,88 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+
+    .form_header{
+        font-weight: 400;
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .field_container-column{
+        display: flex;
+        flex-flow: column;
+        margin: 0.5rem;
+    }
+
+    .field_label-opaque{
+        margin-bottom: 0.2rem;
+        color: rgba(0, 0, 0, 0.5)
+    }
+
+    .field_label-dark{
+        margin-bottom: 0.2rem;
+        color: rgba(0, 0, 0, 1)
+    }
+
+    .field_input{
+        height: 1.8rem;
+        width: 15rem;
+    }
+
+    .field_error{
+        color: red;
+    }
+
+    .field_input-phoneNo{
+        height: 1.8rem;
+        width: 8rem;
+    }
+
+    .field_input-checkbox{
+        margin-right: 1rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .form_btn{
+        height: 2rem;
+        width: 10rem;
+        color: white;
+        background-color: royalblue;
+        opacity: 0.8;
+        border-radius: 0.3rem;
+        border: none;
+        margin-top: 1rem;
+    }
+
+    .form_btn-enable{
+        height: 2rem;
+        width: 10rem;
+        color: white;
+        background-color: royalblue;
+        opacity: 0.9;
+        border-radius: 0.3rem;
+        border: none;
+        margin-top: 1rem;
+        
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .form_btn-disable{
+        height: 2rem;
+        width: 10rem;
+        color: white;
+        background-color: royalblue;
+        opacity: 0.7;
+        border-radius: 0.3rem;
+        border: none;
+        margin-top: 1rem;
+    }
+
+    
+    
+
+
+}
